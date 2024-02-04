@@ -4,7 +4,7 @@ body {
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
+  color: rgb(0, 0, 0);
   font-weight: 800;
 }
 
@@ -23,7 +23,14 @@ body {
   font-weight: bold;
 } 
 
-.button {
+.button.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -39,4 +46,9 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+div.text.child {
+  font-size: 16px;
+  font-weight: 800;
 }
